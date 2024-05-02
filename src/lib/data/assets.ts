@@ -70,7 +70,13 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	MySQL: a('mysql.png'),
+	Sociov: a('sociov.png'),
+	SimlinEnterprise: a('simlin-enterprise.png'),
+	CyberQ: a('cyberq.jpeg'),
+	Ust: a('ust.svg'),
+	Jquery: a('jquery.png')
 };
 
 export default Assets;

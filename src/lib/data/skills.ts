@@ -45,12 +45,12 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
-		slug: 'ts',
-		color: 'blue',
+		slug: 'java',
+		color: 'yellow',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.TypeScript,
-		name: 'Typescript',
+		logo: Assets.Java,
+		name: 'Java',
 		category: 'pro-lang'
 	}),
 	defineSkill({
@@ -72,29 +72,67 @@ export const items = [
 		category: 'markup-style'
 	}),
 	defineSkill({
-		slug: 'sass',
-		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass',
-		category: 'markup-style'
+		slug: 'express',
+		color: 'green',
+		description: svelte,
+		logo: Assets.ExpressJs,
+		name: 'ExpressJS',
+		category: 'framework'
 	}),
 	defineSkill({
-		slug: 'reactjs',
-		color: 'cyan',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.ReactJs,
-		name: 'React Js',
+		slug: 'nodejs',
+		color: 'green',
+		description: svelte,
+		logo: Assets.NodeJs,
+		name: 'nodeJS',
 		category: 'library'
 	}),
 	defineSkill({
-		slug: 'svelte',
-		color: 'orange',
+		slug: 'bootstrap',
+		color: 'blue',
 		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte',
+		logo: Assets.Bootstrap,
+		name: 'Bootstrap',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'python',
+		color: 'green',
+		description: svelte,
+		logo: Assets.Python,
+		name: 'Python',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'numpy',
+		color: 'green',
+		description: svelte,
+		logo: Assets.Numpy,
+		name: 'Numpy',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'pandas',
+		color: 'blue',
+		description: svelte,
+		logo: Assets.Pandas,
+		name: 'Pandas',
+		category: 'library'
+	}),
+	defineSkill({
+		slug: 'mysql',
+		color: 'blue',
+		description: svelte,
+		logo: Assets.MySQL,
+		name: 'MySQL',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'jquery',
+		color: 'blue',
+		description: svelte,
+		logo: Assets.Jquery,
+		name: 'jQuery',
 		category: 'library'
 	})
 ] as const;
