@@ -31,7 +31,7 @@ export const items: Array<Project> = [
 			from: new Date(2022, 1, 31), to: new Date(2022, 12, 1)
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Web-app, Interactive Dashboard',
+		type: 'Web-app, Dashboard',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -71,7 +71,7 @@ export const items: Array<Project> = [
 			from: new Date(2020, 11, 30), to: new Date(2021, 4, 1)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Web-app, Interactive Dashboard'
+		type: 'Web-app, Dashboard'
 	},
 ];
 

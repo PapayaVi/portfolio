@@ -77,7 +77,9 @@ const Assets = {
 	SimlinEnterprise: a('simlin-enterprise.png'),
 	CyberQ: a('cyberq.jpeg'),
 	Ust: a('ust.svg'),
-	Jquery: a('jquery.png')
+	Jquery: a('jquery.png'),
+	Datatables: a('datatables.png'),
+	EJS: a('ejs.png')
 };
 
 export default Assets;
