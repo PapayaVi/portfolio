@@ -4,6 +4,7 @@ import { base } from '$app/paths';
 
 const gh = (file: string) => `${base}/logos/${file}`;
 
+// either use file1dark or file2light
 const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 

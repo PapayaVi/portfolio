@@ -6,34 +6,32 @@ export const items: Array<Project> = [
 	{
 		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		description: '',
+		shortDescription: '',
+		links: [{ to: 'https://github.com/PapayaVi', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Modified Online Transaction Integrated Bookkeeping System',
 		period: {
-			from: new Date()
+			from: new Date(2022, 1, 1), to: new Date(2022, 4, 1)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		type: 'Web-app'
 	},
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'',
+		links: [{ to: 'https://github.com/PapayaVi', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Microtex Inventory System',
 		period: {
-			from: new Date()
+			from: new Date(2022, 1, 31), to: new Date(2022, 12, 1)
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		type: 'Web-app, Interactive Dashboard',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -60,7 +58,21 @@ export const items: Array<Project> = [
 				src: 'https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
 			}
 		]
-	}
+	},
+	{
+		slug: 'slick-portfolio-angular',
+		color: '#5e95e3',
+		description: '',
+		shortDescription: '',
+		links: [{ to: 'https://github.com/PapayaVi', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'Sales Web-based Report Management System',
+		period: {
+			from: new Date(2020, 11, 30), to: new Date(2021, 4, 1)
+		},
+		skills: getSkills('angular', 'ts', 'tailwind'),
+		type: 'Web-app, Interactive Dashboard'
+	},
 ];
 
 export const title = 'Projects';
