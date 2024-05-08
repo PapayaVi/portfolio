@@ -15,7 +15,37 @@ export const items: Array<Project> = [
 			from: new Date(2022, 1, 1), to: new Date(2022, 4, 1)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Web-app'
+		type: 'Web-app',
+		screenshots: [
+			{
+				label: '1',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_login.png'
+			},
+			{
+				label: 's2',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_home.png'
+			},
+			{
+				label: '3',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_home2.png'
+			},
+			{
+				label: '4',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_tax.png'
+			},
+			{
+				label: '5',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_bst.png'
+			},
+			{
+				label: '6',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_coa.png'
+			},
+			{
+				label: '7',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_cfs.png'
+			}
+		]
 	},
 	{
 		slug: 'slick-portfolio-svelte',
