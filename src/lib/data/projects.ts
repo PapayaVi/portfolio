@@ -22,12 +22,12 @@ export const items: Array<Project> = [
 				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_login.png'
 			},
 			{
-				label: 's2',
+				label: '2',
 				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_home.png'
 			},
 			{
 				label: '3',
-				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_home2.png'
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/AIS_gl.png'
 			},
 			{
 				label: '4',
