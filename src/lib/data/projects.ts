@@ -4,12 +4,12 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'slick-portfolio-1',
 		color: '#5e95e3',
-		description: '',
-		shortDescription: '',
+		description: 'a web-based Modified Online Transaction Integrated Bookkeeping System that helps these said processes of the company. The system is able to get data from their existing (Xendit) to collect the company’s financial data, have features of journalizing the company’s financial records for bookkeeping, and have an automated filing of BIR reports and generating the reports through PDF and excel fIles with BIR formats (such as annual tax etc.).',
+		shortDescription: 'MOTIBS, based on the client’s needs, aims to provide ease to the process of bookkeeping',
 		links: [{ to: 'https://github.com/PapayaVi', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.Sociov,
 		name: 'Modified Online Transaction Integrated Bookkeeping System',
 		period: {
 			from: new Date(2022, 1, 1), to: new Date(2022, 4, 1)
@@ -48,14 +48,14 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'slick-portfolio-2',
 		color: '#ff3e00',
 		description:
 			'',
 		shortDescription:
 			'',
 		links: [{ to: 'https://github.com/PapayaVi', label: 'GitHub' }],
-		logo: Assets.Svelte,
+		logo: Assets.SimlinEnterprise,
 		name: 'Microtex Inventory System',
 		period: {
 			from: new Date(2022, 1, 31), to: new Date(2022, 12, 1)
@@ -90,18 +90,48 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'slick-portfolio-3',
 		color: '#5e95e3',
-		description: '',
+		description: 'The company requested a stock monitoring system to improve its monitoring process. This is due to their current means of monitoring their inventory which is only through encoding in Google Sheets which has been proven to be prone to inaccuracies and errors. The system could not only be an auxiliary to improve monitoring stocks but also could stand as decision support for the decision-makers of the company by also being a means to display the results of the analysis through a dashboarding feature',
 		shortDescription: '',
 		links: [{ to: 'https://github.com/PapayaVi', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.CyberQ,
 		name: 'Sales Web-based Report Management System',
 		period: {
 			from: new Date(2020, 11, 30), to: new Date(2021, 4, 1)
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Web-app, Dashboard'
+		type: 'Web-app, Dashboard',
+		screenshots: [
+			{
+				label: '1',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/se_login.png'
+			},
+			{
+				label: '2',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/se_inv.png'
+			},
+			{
+				label: '3',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/se_prod.png'
+			},
+			{
+				label: '4',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/se_prod_edit.png'
+			},
+			{
+				label: '5',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/se_prod_stock.png'
+			},
+			{
+				label: '6',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/se_db_desc.png'
+			},
+			{
+				label: '7',
+				src: 'https://raw.githubusercontent.com/PapayaVi/portfolio/main/static/screenshots/se_db_forecast.png'
+			}
+		]
 	},
 ];
 
