@@ -1,6 +1,7 @@
 import Assets from './assets';
 import type { Skill, SkillCategory } from '../types';
 import svelte from '../md/svelte.md?raw';
+import javascript from '../md/javascript.md?raw';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
 
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
@@ -38,8 +39,7 @@ export const items = [
 	defineSkill({
 		slug: 'js',
 		color: 'yellow',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: javascript,
 		logo: Assets.JavaScript,
 		name: 'Javascript',
 		category: 'pro-lang'
@@ -48,7 +48,7 @@ export const items = [
 		slug: 'java',
 		color: 'yellow',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'',
 		logo: Assets.Java,
 		name: 'Java',
 		category: 'pro-lang'
@@ -57,7 +57,7 @@ export const items = [
 		slug: 'css',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'',
 		logo: Assets.CSS,
 		name: 'CSS',
 		category: 'markup-style'
@@ -66,7 +66,7 @@ export const items = [
 		slug: 'html',
 		color: 'orange',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'',
 		logo: Assets.HTML,
 		name: 'HTML',
 		category: 'markup-style'
@@ -74,7 +74,7 @@ export const items = [
 	defineSkill({
 		slug: 'express',
 		color: 'green',
-		description: svelte,
+		description: '',
 		logo: Assets.ExpressJs,
 		name: 'ExpressJS',
 		category: 'framework'
@@ -82,7 +82,7 @@ export const items = [
 	defineSkill({
 		slug: 'nodejs',
 		color: 'green',
-		description: svelte,
+		description: '',
 		logo: Assets.NodeJs,
 		name: 'nodeJS',
 		category: 'library'
@@ -90,7 +90,7 @@ export const items = [
 	defineSkill({
 		slug: 'bootstrap',
 		color: 'blue',
-		description: svelte,
+		description: '',
 		logo: Assets.Bootstrap,
 		name: 'Bootstrap',
 		category: 'framework'
@@ -98,7 +98,7 @@ export const items = [
 	defineSkill({
 		slug: 'python',
 		color: 'green',
-		description: svelte,
+		description: '',
 		logo: Assets.Python,
 		name: 'Python',
 		category: 'pro-lang'
@@ -106,7 +106,7 @@ export const items = [
 	defineSkill({
 		slug: 'numpy',
 		color: 'green',
-		description: svelte,
+		description: '',
 		logo: Assets.Numpy,
 		name: 'Numpy',
 		category: 'library'
@@ -114,7 +114,7 @@ export const items = [
 	defineSkill({
 		slug: 'pandas',
 		color: 'blue',
-		description: svelte,
+		description: '',
 		logo: Assets.Pandas,
 		name: 'Pandas',
 		category: 'library'
@@ -122,7 +122,7 @@ export const items = [
 	defineSkill({
 		slug: 'mysql',
 		color: 'blue',
-		description: svelte,
+		description: '',
 		logo: Assets.MySQL,
 		name: 'MySQL',
 		category: 'db'
@@ -130,7 +130,7 @@ export const items = [
 	defineSkill({
 		slug: 'jquery',
 		color: 'blue',
-		description: svelte,
+		description: '',
 		logo: Assets.Jquery,
 		name: 'jQuery',
 		category: 'library'
@@ -138,7 +138,7 @@ export const items = [
 	defineSkill({
 		slug: 'datatables',
 		color: 'blue',
-		description: svelte,
+		description: '',
 		logo: Assets.Datatables,
 		name: 'DataTables',
 		category: 'library'
@@ -146,7 +146,7 @@ export const items = [
 	defineSkill({
 		slug: 'ejs',
 		color: 'green',
-		description: svelte,
+		description: '',
 		logo: Assets.EJS,
 		name: 'EJS',
 		category: 'lang'
