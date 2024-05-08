@@ -8,7 +8,7 @@ export const name = 'Reymart';
 export const lastName = 'Visaya';
 
 export const description =
-	'I am an aspiring Software developer, a recent graduate with less than a years experience. I am mostly self-taught with available resources.';
+	'I like working as a backend developer. I am passionate in building Web applications.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/PapayaVi' },
