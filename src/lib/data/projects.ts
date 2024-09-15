@@ -126,6 +126,64 @@ export const items: Array<Project> = [
 		]
 		
 	},
+	{
+		slug: 'slick-portfolio-4',
+		color: '#5e95e3',
+		description: 'A side project in learning how to create/decode QR codes',
+		shortDescription: 'RapidQR , QR code generator',
+		links: [{ to: 'https://github.com/PapayaVi/RapidQR', label: 'GitHub' }],
+		logo: Assets.OMORI,
+		name: 'RapidQR',
+		period: {
+			from: new Date(2024, 9, 9), to: new Date(2024, 9, 15)
+		},
+		skills: getSkills('axios', 'express', 'nodejs'),
+		type: 'Web-app, Utility',
+		screenshots: [
+			{
+				label: '1',
+				src: 'https://raw.githubusercontent.com/PapayaVi/RapidQR/main/server/public/img/demo1.png'
+			},
+			{
+				label: '2',
+				src: 'https://raw.githubusercontent.com/PapayaVi/RapidQR/main/server/public/img/demo2.png'
+			},
+			{
+				label: '3',
+				src: 'https://raw.githubusercontent.com/PapayaVi/RapidQR/main/server/public/img/demo3.png'
+			},
+			{
+				label: '4',
+				src: 'https://raw.githubusercontent.com/PapayaVi/RapidQR/main/server/public/img/demo4.png'
+			}
+		]
+		
+	},
+	{
+		slug: 'slick-portfolio-5',
+		color: '#5e95e3',
+		description: 'A side project in learning how to shorten URLs using bitly library',
+		shortDescription: 'Shortify , URL Shortener',
+		links: [{ to: 'https://github.com/PapayaVi/Shortify', label: 'GitHub' }],
+		logo: Assets.OMORI,
+		name: 'Shortify',
+		period: {
+			from: new Date(2024, 9, 9), to: new Date(2024, 9, 15)
+		},
+		skills: getSkills('axios', 'express', 'nodejs'),
+		type: 'Web-app, Utility',
+		screenshots: [
+			{
+				label: '1',
+				src: 'https://raw.githubusercontent.com/PapayaVi/Shortify/main/server/public/img/demo1.jpg'
+			},
+			{
+				label: '2',
+				src: 'https://raw.githubusercontent.com/PapayaVi/Shortify/main/server/public/img/demo2.jpg'
+			}
+		]
+		
+	}
 ];
 
 export const title = 'Projects';

@@ -79,7 +79,9 @@ const Assets = {
 	Ust: a('ust.svg'),
 	Jquery: a('jquery.png'),
 	Datatables: a('datatables.png'),
-	EJS: a('ejs.png')
+	EJS: a('ejs.png'),
+	OMORI: a('omori.png'),
+	Axios: a('axios.png')
 };
 
 export default Assets;

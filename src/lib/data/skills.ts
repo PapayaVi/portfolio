@@ -150,6 +150,14 @@ export const items = [
 		logo: Assets.EJS,
 		name: 'EJS',
 		category: 'lang'
+	}),
+	defineSkill({
+		slug: 'axios',
+		color: 'purple',
+		description: '',
+		logo: Assets.Axios,
+		name: 'Axios',
+		category: 'library'
 	})
 ] as const;
 
