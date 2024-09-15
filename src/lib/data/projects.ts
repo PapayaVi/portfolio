@@ -4,7 +4,7 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-1',
+		slug: 'p1',
 		color: '#5e95e3',
 		description: 'a web-based Modified Online Transaction Integrated Bookkeeping System that helps these said processes of the company. The system is able to get data from their existing (Xendit) to collect the company’s financial data, have features of journalizing the company’s financial records for bookkeeping, and have an automated filing of BIR reports and generating the reports through PDF and excel fIles with BIR formats (such as annual tax etc.).',
 		shortDescription: 'MOTIBS, based on the client’s needs, aims to provide ease to the process of bookkeeping',
@@ -48,7 +48,7 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'slick-portfolio-2',
+		slug: 'p2',
 		color: '#ff3e00',
 		description:
 			'The company requested a stock monitoring system to improve its monitoring process. This is due to their current means of monitoring their inventory which is only through encoding in Google Sheets which has been proven to be prone to inaccuracies and errors. The system could not only be an auxiliary to improve monitoring stocks but also could stand as decision support for the decision-makers of the company by also being a means to display the results of the analysis through a dashboarding feature',
@@ -94,7 +94,7 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'slick-portfolio-3',
+		slug: 'p3',
 		color: '#5e95e3',
 		description: 'The project aims to create a Sales Web-based Report Management System and also seeks to develop a comprehensive interactive dashboard that gives real-time insights and key performance indicators (KPIs) to help the sales departments make data-driven decisions',
 		shortDescription: 'Sales-Registry, Interactive dashboard',
@@ -127,7 +127,7 @@ export const items: Array<Project> = [
 		
 	},
 	{
-		slug: 'slick-portfolio-4',
+		slug: 'p4',
 		color: '#5e95e3',
 		description: 'A side project in learning how to create/decode QR codes',
 		shortDescription: 'RapidQR , QR code generator',
@@ -160,7 +160,7 @@ export const items: Array<Project> = [
 		
 	},
 	{
-		slug: 'slick-portfolio-5',
+		slug: 'p5',
 		color: '#5e95e3',
 		description: 'A side project in learning how to shorten URLs using bitly library',
 		shortDescription: 'Shortify , URL Shortener',
