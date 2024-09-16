@@ -1,4 +1,4 @@
-import{A as e}from"./UIcon.c83f2ab2.js";const p=`# JavaScript
+import{A as e}from"./UIcon.e11db673.js";const p=`# JavaScript
 
 ---
 
